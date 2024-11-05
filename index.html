@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScheduleFinder</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid grid">
+        <h1 class="top text-center">Where Should I Be Right Now?</h1>
+        <br><br>
+        <div class="form-group box d-flex flex-column justify-content-center">
+            <label for="dayInput" class="flot">Select Day (A-G):</label>
+            <select id="dayInput" class="form-control cent">
+                <option value="">Select a day</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+                <option value="E">E</option>
+                <option value="F">F</option>
+                <option value="G">G</option>
+              </select>
+              <br><br>
+                <button id="submitDay" class="btn top2 mt-2">Show Schedule</button>
+        </div>
+        <br>
+
+        <div class="schedule m-4">
+            <h3 class="text-center">Your Schedule for the Day</h3>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Period</th>
+                        <th>Time</th>
+                        <th>Class</th>
+                        <th>Teacher</th>
+                        <th>Room</th>
+                    </tr>
+                </thead>
+                <tbody id="scheduleList"></tbody>
+            </table>
+        </div>
+        
+    </div>
+    <div class="foot">
+        <footer class="text-center text-white">
+          <div class="container">
+            <section class="mt-5">
+              <div class="row text-center d-flex justify-content-center pt-5">
+                <div class="col-md-2">
+                  <h6 class="text-uppercase font-weight-bold">
+                    <a href="#!" class="text-white">About us</a>
+                  </h6>
+                </div>
+                <div class="col-md-2">
+                  <h6 class="text-uppercase font-weight-bold">
+                    <a href="#!" class="text-white">Find More</a>
+                  </h6>
+                </div>
+
+                <div class="col-md-2">
+                  <h6 class="text-uppercase font-weight-bold">
+                    <a href="#!" class="text-white">Help</a>
+                  </h6>
+                </div>
+                <div class="col-md-2">
+                  <h6 class="text-uppercase font-weight-bold">
+                    <a href="#!" class="text-white">Contact</a>
+                  </h6>
+                </div>
+              </div>
+            </section>
+            <hr class="my-5" />
+            <section class="mb-5">
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-8">
+                  <p>
+                    The ScheduleFinder website helps users quickly access their daily school schedule by selecting a specific day. The site has a simple layout, featuring a title that asks, "Where Should I Be Right Now?" and a dropdown menu with day options from A to G. After selecting a day and clicking "Show Schedule," users see a table showing their class periods, times, teachers, and rooms. This information is updated from a server to keep the schedule accurate.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div
+               class="text-center p-3"
+               style="background-color: rgba(0, 0, 0, 0.2)"
+               >
+            © 2024 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/"
+               >ScheduleFinder.com</a
+              >
+          </div>
+        </footer>
+      </div>
+      
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

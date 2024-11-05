@@ -1,0 +1,40 @@
+.top {
+    background-color: #004ca3;
+    border-bottom: .5vw solid rgb(255, 255, 255);
+    box-shadow: 0vw 0vw 4vw .25vw black;
+    padding: 2vw;
+    color: white;
+    text-shadow: 0vw 0vw 2vw white;
+}
+.grid {
+    padding: 0vw;
+}
+.box {
+    margin: 2vw;
+}
+.flot {
+    text-align: center;
+    font-size: large;
+    text-decoration: solid;
+    text-shadow: 0vw 0vw 1vw rgb(0, 0, 0);
+
+}
+.cent {
+    text-align: center;
+}
+.top2 {
+    background-color: #004ca3;
+    color: white;
+    text-shadow: 0vw 0vw 1vw white;
+    border-radius: 5vw;
+    border: .25vw solid rgb(255, 255, 255);
+    width: 50%;
+    margin-left: 25%;
+    box-shadow: 0vw 0vw 4vw .1vw rgb(170, 170, 170);
+}
+.foot {
+    background-color: rgb(207, 207, 207);
+    border-top: .5vw solid white;
+    box-shadow: 0vw 0vw 4vw .25vw rgb(209, 209, 209);
+    margin-top: 10vw;
+}
